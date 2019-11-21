@@ -4,14 +4,24 @@ class CharactersController < ApplicationController
   # GET /characters
   def index
     @characters = Character.all
+    @characters = @characters.where(name: params[:name])
+    #@characters = Character.where("name like ? or created_at like ?", "%#{params[:name]}%", "%#{params[:name]}%  ")
 
-    render json: @characters.to_json({include: [skills: {:except => [:character_id, :created_at, :updated_at]} ],
-                                      :except => [:created_at, :updated_at]})
+    render json: @characters.to_json({include: [skills: {:except => [:character_id, :created_at, :updated_at],
+                                                          :methods => [:score]
+                                                        }],
+                                      :except => [:created_at, :updated_at],
+                                      :methods => [:level, :life, :proficient]})
   end
+
 
   # GET /characters/1
   def show
-    render json: @character
+    render json: @character.to_json({include: [skills: {:except => [:character_id, :created_at, :updated_at],
+                                                         :methods => [:score]
+    }],
+                                      :except => [:created_at, :updated_at],
+                                      :methods => [:level, :life, :proficient]})
   end
 
   # POST /characters
