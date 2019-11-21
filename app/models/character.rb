@@ -1,6 +1,14 @@
 class Character < ApplicationRecord
   has_many :skills, dependent: :destroy
 
+  validates :name,
+            :constitution,
+            :dexterity,
+            :strength,
+            :charisma,
+            :intelligence,
+            :wisdom
+
   scope :name, -> (name) {where("name LIKES %", name,"%")}
   puts name
 
