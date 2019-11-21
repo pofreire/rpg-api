@@ -1,24 +1,9 @@
-# README
+# Dungeons and Dragons API 
+### Api developed for one academic project 
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+#### Description
 
-* Ruby version
+Api developed for a course discipline. With this api you can generate a character and its abilities, define proficiency in the skills, the character can be assembled as desired.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
