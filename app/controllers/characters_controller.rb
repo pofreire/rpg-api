@@ -3,8 +3,10 @@ class CharactersController < ApplicationController
 
   # GET /characters
   def index
-    @characters = Character.all
-    @characters = @characters.where(name: params[:name])
+    @characters = Character.filter_name(params[:name])
+                           .filter_gt(params[:str_gt])
+                           .filter_lt(params[:str_lt])
+
     #@characters = Character.where("name like ? or created_at like ?", "%#{params[:name]}%", "%#{params[:name]}%  ")
 
     render json: @characters.to_json({include: [skills: {:except => [:character_id, :created_at, :updated_at],

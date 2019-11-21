@@ -1,16 +1,22 @@
 class Character < ApplicationRecord
   has_many :skills, dependent: :destroy
 
-  validates :name,
-            :constitution,
+  validates :name, presence: true
+  validates :strength,
             :dexterity,
-            :strength,
-            :charisma,
+            :constitution,
             :intelligence,
-            :wisdom
+            :wisdom,
+            :charisma,
+            :inclusion => 1..20,
+            numericality: { only_integer: true },
+            format: { with: /\A\d+\z/, message: "Integer only. No sign allowed." }
 
-  scope :name, -> (name) {where("name LIKES %", name,"%")}
-  puts name
+  scope :filter_name, ->(name){where('name LIKE ?', "%#{name}%") if name.present?}
+
+  scope :filter_gt, ->(str_gt) {where('strength > ?', str_gt) if str_gt.present?}
+  scope :filter_lt, ->(str_lt) {where('strength < ?', str_lt) if str_lt.present?}
+
 
   def life
     10 + (constitution-10)/2
@@ -40,9 +46,5 @@ class Character < ApplicationRecord
 
      value
   end
-
-
-
-
 
 end
