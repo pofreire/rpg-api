@@ -17,9 +17,8 @@ class Character < ApplicationRecord
   scope :filter_gt, ->(str_gt) {where('strength > ?', str_gt) if str_gt.present?}
   scope :filter_lt, ->(str_lt) {where('strength < ?', str_lt) if str_lt.present?}
 
-
   def life
-    10 + (constitution-10)/2
+      10 + (constitution-10)/2
   end
 
   def level
