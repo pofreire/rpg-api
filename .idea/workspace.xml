@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="95e06d1c-1092-4d08-b561-74cba0815587" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/characters_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/api/v1/characters_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/skills_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/api/v1/skills_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/api/v1/characters_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/api/v1/characters_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/character.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/character.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -54,31 +52,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/characters_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/character.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://98d78c39-a1ba-4c37-ae62-58809c415887/schema/main/table/characters">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true">
-                <filter text="" />
-              </filtering>
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -142,59 +120,7 @@
     </navigator>
     <panes>
       <pane id="RailsProjectView" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="rpg-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rpg-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rpg-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rpg-api" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rpg-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rpg-api" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rpg-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rpg-api" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rpg-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rpg-api" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="v1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rpg-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rpg-api" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rpg-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rpg-api" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rpg-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rpg-api" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -357,12 +283,13 @@
       <workItem from="1574277390375" duration="3302000" />
       <workItem from="1574343613091" duration="21242000" />
       <workItem from="1574429374631" duration="1103000" />
-      <workItem from="1574432292936" duration="3429000" />
+      <workItem from="1574432292936" duration="4784000" />
+      <workItem from="1574637219063" duration="1465000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106570000" />
+    <option name="totallyTimeSpent" value="109390000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -374,15 +301,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="35" y="-1" width="1331" height="768" extended-state="6" />
+    <frame x="35" y="-1" width="1885" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2081142" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.15715063" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.4996109" weight="0.32919255" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.4980968" visible="true" weight="0.21757323" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.17129977" side_tool="true" visible="true" weight="0.32833582" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50190324" side_tool="true" visible="true" weight="0.21757323" />
       <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.4996109" weight="0.32919255" />
       <window_info anchor="bottom" id="Database Console" order="4" sideWeight="0.49918434" weight="0.3757764" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
@@ -393,7 +320,7 @@
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" sideWeight="0.5972953" weight="0.32833582" />
-      <window_info anchor="right" id="Database" order="0" visible="true" weight="0.18482344" />
+      <window_info anchor="right" id="Database" order="0" visible="true" weight="0.19140838" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -403,7 +330,7 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/rpg_api@Development__rpg_api.rcov" NAME="Development: rpg-api Coverage Results" MODIFIED="1574366384892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rpg-api" />
+    <SUITE FILE_PATH="coverage/rpg_api@Development__rpg_api.rcov" NAME="Development: rpg-api Coverage Results" MODIFIED="1574638696999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rpg-api" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/db/migrate/20191105122826_create_skills.rb" />
@@ -654,10 +581,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/characters_controller.rb">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="105">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -670,10 +597,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/characters_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/character.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>

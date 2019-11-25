@@ -5,8 +5,18 @@ module Api::V1
     # GET /characters
     def index
       @characters = Character.filter_name(params[:name])
-                             .filter_gt(params[:str_gt])
-                             .filter_lt(params[:str_lt])
+                             .filter_str_gt(params[:str_gt])
+                             .filter_str_lt(params[:str_lt])
+                             .filter_dex_gt(params[:dex_gt])
+                             .filter_dex_lt(params[:dex_lt])
+                             .filter_con_gt(params[:con_gt])
+                             .filter_con_lt(params[:con_lt])
+                             .filter_int_gt(params[:int_gt])
+                             .filter_int_lt(params[:int_lt])
+                             .filter_wis_gt(params[:wis_gt])
+                             .filter_wis_lt(params[:wis_lt])
+                             .filter_cha_gt(params[:cha_gt])
+                             .filter_cha_lt(params[:cha_lt])
       #@characters = Character.where("name like ? or created_at like ?", "%#{params[:name]}%", "%#{params[:name]}%  ")
 
       render json: @characters.to_json({include: [skills: {:except => [:character_id, :created_at, :updated_at],
