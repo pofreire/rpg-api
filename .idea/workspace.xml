@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="95e06d1c-1092-4d08-b561-74cba0815587" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/api/v1/characters_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/api/v1/characters_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/character.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/character.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -55,8 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/character.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="71">
+              <caret line="18" selection-start-line="18" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -120,8 +118,8 @@
     </navigator>
     <panes>
       <pane id="RailsProjectView" />
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -284,12 +282,13 @@
       <workItem from="1574343613091" duration="21242000" />
       <workItem from="1574429374631" duration="1103000" />
       <workItem from="1574432292936" duration="4784000" />
-      <workItem from="1574637219063" duration="1465000" />
+      <workItem from="1574637219063" duration="3503000" />
+      <workItem from="1574685798193" duration="1166000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109390000" />
+    <option name="totallyTimeSpent" value="112594000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -301,26 +300,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="35" y="-1" width="1885" height="1080" extended-state="6" />
+    <frame x="35" y="-1" width="1331" height="768" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.15715063" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.15953307" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.4980968" visible="true" weight="0.21757323" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.4980968" weight="0.21757323" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50190324" side_tool="true" visible="true" weight="0.21757323" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.17183252" side_tool="true" visible="true" weight="0.2173913" />
       <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.4996109" weight="0.32919255" />
       <window_info anchor="bottom" id="Database Console" order="4" sideWeight="0.49918434" weight="0.3757764" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
       <window_info anchor="bottom" id="Run" order="8" sideWeight="0.53117955" weight="0.3868066" />
-      <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.82870024" weight="0.3988006" />
+      <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.8281675" weight="0.39853558" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" sideWeight="0.5972953" weight="0.32833582" />
-      <window_info anchor="right" id="Database" order="0" visible="true" weight="0.19140838" />
+      <window_info anchor="right" id="Database" order="0" visible="true" weight="0.19066148" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -606,8 +605,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/character.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="71">
+          <caret line="18" selection-start-line="18" selection-end-line="19" />
         </state>
       </provider>
     </entry>
