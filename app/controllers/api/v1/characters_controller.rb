@@ -41,7 +41,7 @@ module Api::V1
       @character = Character.new(character_params)
 
       if @character.save
-        render json: @character, status: :created, location: @character
+        render json: @character, status: :created
       else
         render json: @character.errors, status: :unprocessable_entity
       end
