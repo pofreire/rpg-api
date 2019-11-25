@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95e06d1c-1092-4d08-b561-74cba0815587" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -53,7 +53,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/character.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
+            <state relative-caret-position="270">
               <caret line="18" selection-start-line="18" selection-end-line="19" />
             </state>
           </provider>
@@ -117,9 +117,30 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="rpg-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpg-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpg-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpg-api" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpg-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpg-api" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -284,11 +305,12 @@
       <workItem from="1574432292936" duration="4784000" />
       <workItem from="1574637219063" duration="3503000" />
       <workItem from="1574685798193" duration="1166000" />
+      <workItem from="1574700786593" duration="265000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112594000" />
+    <option name="totallyTimeSpent" value="112859000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -304,11 +326,11 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.15953307" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.21167316" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.4980968" weight="0.21757323" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49727628" visible="true" weight="0.2173913" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.17183252" side_tool="true" visible="true" weight="0.2173913" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50272375" side_tool="true" visible="true" weight="0.2173913" />
       <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.4996109" weight="0.32919255" />
       <window_info anchor="bottom" id="Database Console" order="4" sideWeight="0.49918434" weight="0.3757764" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
@@ -452,20 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://98d78c39-a1ba-4c37-ae62-58809c415887/schema/main/table/skills">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -603,9 +611,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="93" column="13" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/character.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
+        <state relative-caret-position="270">
           <caret line="18" selection-start-line="18" selection-end-line="19" />
         </state>
       </provider>
