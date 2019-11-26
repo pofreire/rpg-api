@@ -1,7 +1,7 @@
 class Character < ApplicationRecord
   has_many :skills, dependent: :destroy
 
-  validates :name, presence: true
+  validates :name, presence: true, uniqueness: {case_sensitive: false}
   validates :strength,
             :dexterity,
             :constitution,
