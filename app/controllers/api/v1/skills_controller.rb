@@ -4,9 +4,11 @@ module Api::V1
 
     # GET /skills
     def index
-      @skills = Skill.find_by_character_id(params[:character_id])
+      @skills = Skill.find_all_by_character_id(params[:character_id])
 
-      render json: @skills.to_json(:only => [:id, :ability, :name])
+      puts(@skills)
+
+      render json: @skills.to_json()
     end
 
     # GET /skills/1
