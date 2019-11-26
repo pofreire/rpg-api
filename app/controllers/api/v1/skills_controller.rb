@@ -6,7 +6,7 @@ module Api::V1
     def index
       @skills = Skill.find_all_by_character_id(params[:character_id])
 
-      render json: @skills.to_json(:only => [:id, :ability, :name])
+      render json: @skills.to_json(:only => [:id, :ability, :name, :proficient])
     end
 
     # GET /skills/1
